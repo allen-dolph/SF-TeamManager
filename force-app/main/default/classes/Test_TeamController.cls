@@ -2,7 +2,7 @@
 public with sharing class Test_TeamController {
     @testSetup
     public static void setup() {
-        Engine__c engine = new Engine__c;
+        Engine__c engine = new Engine__c();
         engine.Name = 'Mercedes';
 
         insert engine;
@@ -18,7 +18,7 @@ public with sharing class Test_TeamController {
     public static void Test_getTeams() {
         // Arrange
         // Act
-        List<Account> result = TeamManager.getTeams();
+        List<Account> result = TeamController.getTeams();
 
         // Assert
         System.AssertEquals('Mercedes', result[0].Engine__r.Name);

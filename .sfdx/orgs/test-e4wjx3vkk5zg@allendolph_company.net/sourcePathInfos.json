@@ -9,7 +9,7 @@
             "changeTime": 1504120643000,
             "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": true
         }
@@ -24,7 +24,7 @@
             "changeTime": 1504120643000,
             "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -36,10 +36,10 @@
             "sourcePath": "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default",
             "isDirectory": true,
             "isMetadataFile": false,
-            "size": 272,
-            "modifiedTime": 1504121857000,
-            "changeTime": 1504121857000,
-            "contentHash": "e9cd9e2eba68b125377f7b10cd1f4ad86d88e9cd"
+            "size": 306,
+            "modifiedTime": 1504122278000,
+            "changeTime": 1504122278000,
+            "contentHash": "d8417619f8cb74acd7a6c2b95aaad38138801297"
         }
     ],
     [
@@ -52,7 +52,7 @@
             "changeTime": 1504120643000,
             "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -67,7 +67,7 @@
             "changeTime": 1504121269000,
             "contentHash": "b1905f553bf50ecc67c00f87476abb606c761e97",
             "isMetadataFile": false,
-            "state": "n",
+            "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
         }
@@ -907,27 +907,92 @@
     [
         "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/permissionsets/Team_Manager.permissionset-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/permissionsets/Team_Manager.permissionset-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 1134,
             "modifiedTime": 1504121857000,
             "changeTime": 1504121857000,
-            "contentHash": "fe29c62dca28e3cf12df2736c69fcbc082e53663"
+            "contentHash": "fe29c62dca28e3cf12df2736c69fcbc082e53663",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/permissionsets",
         {
-            "state": "u",
             "sourcePath": "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/permissionsets",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 102,
             "modifiedTime": 1504121857000,
             "changeTime": 1504121857000,
-            "contentHash": "a5de48533bc5ec095201863f98bbb9fda5b3cd19"
+            "contentHash": "a5de48533bc5ec095201863f98bbb9fda5b3cd19",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes",
+        {
+            "state": "u",
+            "sourcePath": "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1504122422000,
+            "changeTime": 1504122422000,
+            "contentHash": "8d7b66e31d30f3ec8bb0e16f8d6df077b19b8bf8"
+        }
+    ],
+    [
+        "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes/TeamController.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes/TeamController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 269,
+            "modifiedTime": 1504122299000,
+            "changeTime": 1504122299000,
+            "contentHash": "5854172a1328ad77345686c594b263df59e2915f"
+        }
+    ],
+    [
+        "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes/TeamController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes/TeamController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 192,
+            "modifiedTime": 1504122278000,
+            "changeTime": 1504122278000,
+            "contentHash": "1880487a88869255ea6e47a5fe239017155fbbeb"
+        }
+    ],
+    [
+        "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes/Test_TeamController.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes/Test_TeamController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 569,
+            "modifiedTime": 1504122422000,
+            "changeTime": 1504122422000,
+            "contentHash": "0e2eb0de3c3732d7577dffc204f6b2eb3aba2d38"
+        }
+    ],
+    [
+        "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes/Test_TeamController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/allendolph/dev/salesforce/dx/TeamManager/force-app/main/default/classes/Test_TeamController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 197,
+            "modifiedTime": 1504122313000,
+            "changeTime": 1504122313000,
+            "contentHash": "c11cfbca9db0daea9e59f50e2c236ded939bf66b"
         }
     ]
 ]
